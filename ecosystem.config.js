@@ -25,7 +25,7 @@ module.exports = {
       port : '12178',
       repo : 'git@github.com:wf-yrx/pm2-vue.git',
       path : '/home/yueyagou/www/wf',
-      'post-deploy' : 'git pull && npm install && pm2 reload ecosystem.config.js --env production'
+      // 'post-deploy' : 'git pull && npm install && pm2 reload ecosystem.config.js --env production'
     }
   }
 };
